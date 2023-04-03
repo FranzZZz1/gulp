@@ -1,0 +1,9 @@
+@import "fonts";
+@import "_vars";
+@import "_global";
+@import "_reset";
+
+.var {
+	@extend %var;
+	color: $black;
+}
