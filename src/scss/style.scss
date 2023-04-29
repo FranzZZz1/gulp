@@ -2,8 +2,14 @@
 @import "_vars";
 @import "_global";
 @import "_reset";
+@import "_header";
+@import "index";
+@import "_footer";
 
-.var {
-	@extend %var;
-	color: $black;
+/* //*Shorthand background for webpcss plugin works in 'style.scss' only!
+
+.div{
+	background: url("@img/6.png") center center / cover no-repeat;
 }
+
+*/
